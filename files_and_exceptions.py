@@ -25,9 +25,7 @@ def read_file_to_dict(nombre_archivo):
     return ventas
     
   
-
-
-    def process_dict(diccionario):
+def process_dict(diccionario):
     for producto, ventas in diccionario.items():
         total = 0
         for monto in ventas:
